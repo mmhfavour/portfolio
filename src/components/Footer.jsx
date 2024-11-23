@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className="bg-gray-900 text-white py-4">
       <div className="mx-auto flex items-center justify-center">
-        <p className="mr-2">© 2023 Name?</p>
+        <p className="mr-2">© 2023 Hamza</p>
 		<a
           href="https://github.com/ElonMusk2002/my-portfolio"
           target="_blank"
