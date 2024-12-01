@@ -1,4 +1,4 @@
-import logo from "./logo-mmh.png";
+import logo from "./favicon-32x32.png";
 import backend from "./backend.png";
 import creator from "./creator.webp";
 import mobile from "./mobile.webp";
