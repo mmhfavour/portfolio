@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./logo-mmh.png";
 import backend from "./backend.png";
 import creator from "./creator.webp";
 import mobile from "./mobile.webp";
