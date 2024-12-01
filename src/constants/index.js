@@ -10,6 +10,12 @@ import {
 	codex,
 	dalle,
 	generator,
+	TVSNext,
+	TCube,
+	HDLabs,
+	Exeter,
+	Billiontags,
+	Freelancer
   } from "../assets";
   
   export const navLinks = [
@@ -29,76 +35,94 @@ import {
   
   const services = [
 	{
-	  title: "Web Developer",
+		title: "Frontend Developer",
+		icon: creator,
+	},
+	{
+		title: "Backend Developer",
+		icon: backend,
+	  },
+	{
+	  title: "AI Enthusiast",
 	  icon: web,
 	},
-	{
-	  title: "NodeJS Native Developer",
-	  icon: nodejs,
-	},
-	{
-	  title: "Backend Developer",
-	  icon: backend,
-	},
-	{
-	  title: "Frontend Developer",
-	  icon: creator,
-	},
+	
   ];
   
   const experiences = [
 	{
-	  title: "React.js Developer",
-	  company_name: "Starbucks",
-	  icon: starbucks,
-	  iconBg: "#383E56",
-	  date: "March 2020 - April 2021",
-	  points: [
-		"Developing and maintaining web applications using React.js and other related technologies.",
-		"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-		"Implementing responsive design and ensuring cross-browser compatibility.",
-		"Participating in code reviews and providing constructive feedback to other developers.",
-	  ],
+	  "title": "Software Developer",
+	  "company_name": "TCube Solutions",
+	  "icon": TCube,
+	  "iconBg": "#E6DEDD",
+	  "date": "Dec 2015 - Nov 2016",
+	  "points": [
+		"Build a complete application from design to deployment called Aegis, which is an employee management application built using Laravel and Bootstrap",
+		"Supported an in house product which is an HMS and resolved bugs",
+		"Programmed multiple scripts to scrape websites for data using python",
+		"Build an application to predict the stock market using the “moving average algorithm”"
+	  ]
 	},
 	{
-	  title: "React Native Developer",
-	  company_name: "Tesla",
-	  icon: tesla,
-	  iconBg: "#E6DEDD",
-	  date: "Jan 2021 - Feb 2022",
-	  points: [
-		"Developing and maintaining web applications using React.js and other related technologies.",
-		"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-		"Implementing responsive design and ensuring cross-browser compatibility.",
-		"Participating in code reviews and providing constructive feedback to other developers.",
-	  ],
+	  "title": "Frontend Developer",
+	  "company_name": "Billiontags",
+	  "icon": Billiontags,
+	  "iconBg": "#FFF",
+	  "date": "Jan 2017 - July 2017",
+	  "points": [
+		"Integrated UI with APIs for the Beautiful Matrimony product using vanillaJS, enhancing frontend functionality and user experience.",
+		"Developed an in-house employee attendance management system using Laravel, streamlining attendance tracking and management.",
+		"Integrated APIs and frontend for multiple products using ReactJS, ensuring seamless data flow and improved user interfaces."
+	  ]	  
 	},
 	{
-	  title: "Web Developer",
-	  company_name: "Shopify",
-	  icon: shopify,
-	  iconBg: "#383E56",
-	  date: "Jan 2022 - Jan 2023",
-	  points: [
-		"Developing and maintaining web applications using React.js and other related technologies.",
-		"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-		"Implementing responsive design and ensuring cross-browser compatibility.",
-		"Participating in code reviews and providing constructive feedback to other developers.",
-	  ],
+	  "title": "Software Developer",
+	  "company_name": "Exeter Premedia Services",
+	  "icon": Exeter,
+	  "iconBg": "#FFF",
+	  "date": "Sep 2017 - Mar 2020",
+	  "points": [
+		"Led the development of the Content Structuring project using Node.js and Express.js microservices, automating the pre-editing process by up to 50% through Regex-based content tagging.",
+		"Built multiple custom microservices and a CI/CD pipeline using Node.js and Fastify to streamline product deployment and support the copy editing process.",
+		"Designed and implemented a phylogenetic tree analysis project with Node.js, Express, and Socket.io, integrating external APIs, web scraping from NCBI and PubMed, and efficient state management through sockets."
+	  ]	  
 	},
 	{
-	  title: "Full stack Developer",
-	  company_name: "Meta",
-	  icon: meta,
-	  iconBg: "#E6DEDD",
-	  date: "Jan 2023 - Present",
-	  points: [
-		"Developing and maintaining web applications using React.js and other related technologies.",
-		"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-		"Implementing responsive design and ensuring cross-browser compatibility.",
-		"Participating in code reviews and providing constructive feedback to other developers.",
-	  ],
+	  "title": "Freelance Software Developer",
+	  "company_name": "Freelancer",
+	  "icon": Freelancer,
+	  "iconBg": "#FFF",
+	  "date": "Apr 2020 - Nov 2021",
+	  "points": [
+		"Developed a comprehensive doctor management application using Node.js and Angular, and led the creation of 'docmagic,' a document workflow automation tool built with Node.js and ReactJS.",
+		"Engineered various web applications, including a mobile-responsive e-commerce platform (PWA) with Laravel, a matrimonial website for a specific religious caste, and an event-based WordPress site for learning and conference enrollment.",
+		"Restored a crashed application using archive.org, contributed to buyadsonbigfm.com for managing radio ad slots, and leveraged Puppeteer for web scraping regional company data for client projects."
+	  ]	  
 	},
+	{
+	  "title": "Senior Software Engineer",
+	  "company_name": "HD Labs",
+	  "icon": HDLabs,
+	  "iconBg": "#FFF",
+	  "date": "Dec 2021 - June 2022",
+	  "points": [
+		"Redesigned and developed responsive, mobile-first user interfaces for an online test and learning platform using VueJS, Bootstrap, and SCSS, enhancing user experience and adaptability across devices.",
+		"Optimized API performance to handle increased demand, ensuring smooth functionality and improved system efficiency.",
+		"Collaborated with cross-functional teams to implement and test VueJS-based components, aligning with best practices and design standards for UI improvements and responsiveness."
+	  ]	  
+	},
+	{
+	  "title": "Lead Software Analyst",
+	  "company_name": "TVSNext",
+	  "icon": TVSNext,
+	  "iconBg": "#ccc",
+	  "date": "July 2022 - Present",
+	  "points": [
+		"Developed reusable Vue.js components and complex frontend interfaces for high-visibility projects, enhancing code efficiency, team collaboration, and user experience.",
+		"Expanded team capabilities by adopting new technologies (C#, Razor, Alpine.js) and improving project outcomes through custom Alpine.js plugins and automated API documentation for large-scale applications.",
+		"Recognized with multiple awards for exceptional dedication and leadership, including the 'Extra Miler Award' and 'Super Squad Award' for outstanding team contributions and project delivery."
+	  ]	  
+	}
   ];
   
   const testimonials = [

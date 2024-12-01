@@ -14,6 +14,14 @@ import shopify from "./company/shopify.webp";
 import starbucks from "./company/starbucks.webp";
 import tesla from "./company/tesla.webp";
 
+
+import TVSNext from "./company/tvs_next_logo.png";
+import TCube from "./company/tcube_logo.png";
+import HDLabs from "./company/hdlabs_logo.png";
+import Exeter from "./company/exeter-premedia.png";
+import Billiontags from "./company/billiontags_logo.jpg";
+import Freelancer from "./company/freelancer.png";
+
 import dalle from "./T-shirt.jpg";
 import generator from "./dall-e.jpg";
 import codex from "./codex.png";
@@ -34,5 +42,11 @@ export {
   starbucks,
   tesla,
   dalle,
-  codex
+  codex,
+  TVSNext,
+  TCube,
+  HDLabs,
+  Exeter,
+  Billiontags,
+  Freelancer
 };

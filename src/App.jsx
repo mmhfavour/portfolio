@@ -16,10 +16,10 @@ const App = () => {
     <BrowserRouter>
       <div className='relative z-0 bg-primary'>
         <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center'>
-          <Suspense fallback={<div className='flex justify-center items-center h-screen text-lg text-gray-600'>Loading Navbar...</div>}>
+          <Suspense fallback={<div className='flex justify-center items-center h-screen text-lg text-gray-600'>Loading Content...</div>}>
             <Navbar />
           </Suspense>
-          <Suspense fallback={<div className='flex justify-center items-center h-screen text-lg text-gray-600'>Loading Hero...</div>}>
+          <Suspense fallback={<div className='flex justify-center items-center h-screen text-lg text-gray-600'>Loading Content...</div>}>
             <Hero />
           </Suspense>
         </div>
@@ -29,12 +29,12 @@ const App = () => {
         <Suspense fallback={<div className='flex justify-center items-center h-screen text-lg text-gray-600'>Loading Experience...</div>}>
           <Experience />
         </Suspense>
-        <Suspense fallback={<div className='flex justify-center items-center h-screen text-lg text-gray-600'>Loading Works...</div>}>
+        {/* <Suspense fallback={<div className='flex justify-center items-center h-screen text-lg text-gray-600'>Loading Works...</div>}>
           <Works />
         </Suspense>
         <Suspense fallback={<div className='flex justify-center items-center h-screen text-lg text-gray-600'>Loading Feedbacks...</div>}>
           <Feedbacks />
-        </Suspense>
+        </Suspense> */}
         <div className='relative z-0'>
           <Suspense fallback={<div className='flex justify-center items-center h-screen text-lg text-gray-600'>Loading Contact...</div>}>
             <Contact />
